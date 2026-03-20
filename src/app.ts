@@ -19,7 +19,7 @@ class App{
     }
 
     private routes(): void{
-        this.server.use("api/v1", routes);
+        this.server.use("/api/v1", routes);
     }
 }
 
